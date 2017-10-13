@@ -1,4 +1,10 @@
 {
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://192.168.199.2:8822"
+    }
+  ],
   "name": "zhengyou/phalcon-framework",
   "description": "the new phalcon framework",
   "type": "phalcon-framework",
