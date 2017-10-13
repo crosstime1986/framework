@@ -1,4 +1,10 @@
 {
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://192.168.199.2:8822"
+    }
+  ],
   "name": "zhengyou/phalcon-framework",
   "description": "the new phalcon framework",
   "type": "phalcon-framework",
@@ -17,12 +23,15 @@
     }
   ],
   "require": {
-    "php": ">=5.6.0"
+    "php": ">=5.6.0",
+    "zhengyou/phalcon-installer": "~1.0.1"
   },
-
   "autoload": {
     "psr-4": {
       "Quan\\": "/"
     }
+  },
+  "config": {
+    "secure-http": false
   }
 }
