@@ -7,6 +7,7 @@
     "phalcon",
     "ORM"
   ],
+  "version": "1.0.1",
   "homepage": "http://gaore.cn/",
   "license": "Apache-2.0",
   "authors": [
